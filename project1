@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML ALL TAGS EXAMPLE</title>
+  <style>
+    section {
+      margin-bottom: 32px;
+      padding: 12px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <a href="#text">Text</a>
+  <a href="#forms">Forms</a>
+  <a href="#media">Media</a>
+  <a href="#tables">Tables</a>
+  <a href="#semantic">Semantic</a>
+
+  <section id="text">
+    <h1>Text Formatting Tags</h1>
+    <p>This is a <strong>Strong</strong> and <i>emphasized</i> text.</p>
+    <p>Use <b>Bold</b>, <em>Italic</em>, <u>Underline</u>, and <mark>Mark.</mark></p>
+    <p>Here is <code>inline code</code> and <strike>strikethrough</strike>.</p>
+    <p>This is <small>small</small>, <sub>subscript</sub>, and <sup>superscript</sup>.</p>
+    <p>Below is a preformatted block:</p>
+    <pre>This is a pre</pre>
+  </section>
+</body>
+</html>

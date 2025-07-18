@@ -2,8 +2,8 @@ class Student {
     void sayHello()
 {
         System.out.println("Hello");
+         System.out.println("Diya");    
 }
-
     public static void main(String[] args)
 {
         Student s = new Student(); 

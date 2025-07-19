@@ -8,6 +8,9 @@
       padding: 12px;
       border: 1px solid #ccc;
     }
+    section h1{
+      color:cadetblue;
+    }
   </style>
 </head>
 <body>
@@ -23,8 +26,51 @@
     <p>Use <b>Bold</b>, <em>Italic</em>, <u>Underline</u>, and <mark>Mark.</mark></p>
     <p>Here is <code>inline code</code> and <strike>strikethrough</strike>.</p>
     <p>This is <small>small</small>, <sub>subscript</sub>, and <sup>superscript</sup>.</p>
-    <p>Below is a preformatted block:</p>
-    <pre>This is a pre</pre>
+    <p>Below is a blackquote example.</p>
+    <pre>       Performatted</pre>
+    <pre>       text example</pre>
+    <p> <u>WHO</u>is an abbreviation</p>
+  </section>
+  <section id="text">
+    <h1>Lists</h1>
+    <ul><li>Unordered item 1</li>
+       <li>Unordered item 2 </li>
+    </ul>   
+    <ol> <li>Ordered item 1</li>
+       <li>Ordered item 2 </li>
+  </ol>  
+  <p>HTML</p>
+  <p>        Hyper Text Markup Language </p> 
+  </section>
+  <section id="text">
+    <p>Visit</p>
+  </section>
+  <section id="forms">
+    <h1>Forms and Inputs</h1>
+    <form action="/login" method="post">
+  <label for="username">Name:</label>
+  <input type="text" id="username" name="username"><br>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password"><br>
+
+  <label for="gender">Gender:</label>
+  <input type="radio" id="gender" name="gender"
+                                     value="male"/> male
+ <input type="radio" id="gender" name="gender"
+                                     value="female"/> female<br> 
+  <label for="checkbox">Hobbies:</label>   
+  <input type="checkbox" id="checkbox"
+                                    value="reading"/>Reading                                                                 
+<input type="checkbox" id="checkbox"
+                                    value="reading"/>Playing <br> 
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</form>
+
   </section>
 </body>
 </html>

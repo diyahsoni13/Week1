@@ -43,7 +43,8 @@
   <p>        Hyper Text Markup Language </p> 
   </section>
   <section id="text">
-    <p>Visit</p>
+    <h1>Links and Anchor</h1>
+    <p>Visit <a href="example.com">Example.com</a></p>
   </section>
   <section id="forms">
     <h1>Forms and Inputs</h1>
@@ -62,15 +63,62 @@
                                      value="male"/> male
  <input type="radio" id="gender" name="gender"
                                      value="female"/> female<br> 
+
   <label for="checkbox">Hobbies:</label>   
   <input type="checkbox" id="checkbox"
                                     value="reading"/>Reading                                                                 
 <input type="checkbox" id="checkbox"
                                     value="reading"/>Playing <br> 
-  <button type="submit">Submit</button>
-  <button type="reset">Reset</button>
-</form>
 
-  </section>
+<label for="color">Fav Color:</label>                              
+      <input type="color" id="color" name="color"><br>
+
+<label for="date">DOB:</label>
+<input type="date" id="date" name="date"><br>
+
+<label for="file">Upload File:</label>
+<input type="file" id="file" name="file"><br>
+
+<label for="country list">Country:</label>
+<select name="country list" id="country list">
+  <option value="India">India</option>
+  <option value="USA">USA</option>
+  <option value="Sri Lanka">Sri Lanka</option>
+</select><br>
+<button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</form><br>
+
+<section id="media">
+  <h1>Images,Audio & Video</h1>
+  <img src="https://www.lchangnang.com/blog/wp-content/uploads/2024/10/Discover-the-Magic-of-Winter-in-Ladakh.jpeg" width="90px" height="60px"><br>
+  <audio controls>
+    <source src="abc.mp3" type="audio/mpeg"></source>
+  </audio><br>
+  <video controls>
+    <source src="abc.mp4" type="video/mp4"></source>
+  </video><br>
+</section>
+
+<section id="tables">
+  <h1>Tables</h1>
+  <table border="15px" width="10px">
+    <caption>Name Table</caption>
+    <tr> <th>Name</th>
+         <th>Middle Name</th>
+        <th>Surname</th>
+    </tr>
+    <tr>
+      <td>Diya</td>
+      <td>Himanshu</td>
+      <td>Soni</td>
+    </tr>
+     <td>Diya</td>
+      <td>Himanshu</td>
+      <td>Soni</td>
+    </tr> 
+  </table><br>
+</section>
+      
 </body>
 </html>

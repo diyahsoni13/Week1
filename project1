@@ -14,12 +14,14 @@
   </style>
 </head>
 <body>
+  <h1>HTML ALL TAGS EXAMPLE  </h1>
+
   <a href="#text">Text</a>
   <a href="#forms">Forms</a>
   <a href="#media">Media</a>
   <a href="#tables">Tables</a>
   <a href="#semantic">Semantic</a>
-
+  
   <section id="text">
     <h1>Text Formatting Tags</h1>
     <p>This is a <strong>Strong</strong> and <i>emphasized</i> text.</p>
@@ -102,7 +104,7 @@
 
 <section id="tables">
   <h1>Tables</h1>
-  <table border="15px" width="10px">
+  <table height="15px" width="10px" border="1px">
     <caption>Name Table</caption>
     <tr> <th>Name</th>
          <th>Middle Name</th>
@@ -113,11 +115,29 @@
       <td>Himanshu</td>
       <td>Soni</td>
     </tr>
+    <tr>
      <td>Diya</td>
       <td>Himanshu</td>
       <td>Soni</td>
     </tr> 
   </table><br>
+</section>
+
+<section id="semantic">
+  <h1>Semantic Elements </h1>
+  <b>Article Title</b>
+  <p>This is an article.</p>
+  <p>This is an aside.</p>
+  <details>
+    <summary>Click to Expand</summary>
+    <p>More info inside detail tag</p>
+  </details>
+  <figure>
+  <img src="abc.jpg" alt="Figure Image">
+  <figcaption>This is a Figcaption</figcaption>
+</figure>
+   <p>Footer content here!</p>
+
 </section>
       
 </body>
